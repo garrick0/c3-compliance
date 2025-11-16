@@ -1,3 +1,12 @@
+/**
+ * C3 Compliance Package
+ * Rules evaluation and remediation
+ * @packageDocumentation
+ */
+
+// Force TypeScript to emit index.d.ts
+export {};
+
 export * from './domain/aggregates/RuleSet/RuleSet.js';
 export * from './domain/aggregates/RuleSet/Rule.js';
 export * from './domain/aggregates/RuleSet/Condition.js';
