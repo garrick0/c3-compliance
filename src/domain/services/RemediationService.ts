@@ -1,6 +1,6 @@
 import { FixPlan } from '../aggregates/Remediation/FixPlan.js';
 import { Violation } from '../aggregates/Evaluation/Violation.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 
 export class RemediationService {
   constructor(private logger: Logger) {}

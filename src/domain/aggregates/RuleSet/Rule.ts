@@ -2,7 +2,7 @@
  * Rule - Individual compliance rule
  */
 
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 import { Condition } from './Condition.js';
 import { RuleType } from '../../value-objects/RuleType.js';
 import { Severity } from '../../value-objects/Severity.js';

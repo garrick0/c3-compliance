@@ -2,7 +2,7 @@
  * Condition - Rule condition definition
  */
 
-import { ValueObject } from 'c3-shared';
+import { ValueObject } from '@garrick0/c3-shared';
 
 export interface ConditionProps {
   type: string;

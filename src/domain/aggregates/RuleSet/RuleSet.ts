@@ -2,7 +2,7 @@
  * RuleSet - Aggregate root for a collection of related rules
  */
 
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Rule } from './Rule.js';
 
 export class RuleSet extends AggregateRoot<string> {

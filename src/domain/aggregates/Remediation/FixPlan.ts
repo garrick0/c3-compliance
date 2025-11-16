@@ -2,7 +2,7 @@
  * FixPlan - Aggregate root for a set of fixes
  */
 
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Fix } from './Fix.js';
 
 export class FixPlan extends AggregateRoot<string> {

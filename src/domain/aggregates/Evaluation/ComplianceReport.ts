@@ -2,7 +2,7 @@
  * ComplianceReport - Aggregate root for evaluation results
  */
 
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Violation } from './Violation.js';
 
 export interface ReportSummary {

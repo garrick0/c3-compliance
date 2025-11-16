@@ -1,8 +1,8 @@
 import { ComplianceReport } from '../../domain/aggregates/Evaluation/ComplianceReport.js';
 import { EvaluationEngine } from '../../domain/services/EvaluationEngine.js';
 import { RuleManagementService } from '../../domain/services/RuleManagementService.js';
-import { PropertyGraph } from 'c3-parsing';
-import { Logger } from 'c3-shared';
+import { PropertyGraph } from '@garrick0/c3-parsing';
+import { Logger } from '@garrick0/c3-shared';
 
 export class CheckComplianceUseCase {
   constructor(

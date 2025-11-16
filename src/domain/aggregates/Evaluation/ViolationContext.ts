@@ -2,7 +2,7 @@
  * ViolationContext - Detailed context about where violation occurred
  */
 
-import { ValueObject } from 'c3-shared';
+import { ValueObject } from '@garrick0/c3-shared';
 
 export interface ViolationContextProps {
   filePath: string;

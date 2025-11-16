@@ -2,7 +2,7 @@
  * Violation - Instance of a rule violation
  */
 
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 import { Severity } from '../../value-objects/Severity.js';
 import { ViolationContext } from './ViolationContext.js';
 

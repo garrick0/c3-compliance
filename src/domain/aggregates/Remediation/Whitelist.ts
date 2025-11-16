@@ -2,7 +2,7 @@
  * Whitelist - Accepted violations that should be ignored
  */
 
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 
 export interface WhitelistReason {
   reason: string;

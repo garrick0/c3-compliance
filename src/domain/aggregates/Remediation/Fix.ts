@@ -2,7 +2,7 @@
  * Fix - Individual fix action
  */
 
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 import { FixType } from '../../value-objects/FixType.js';
 
 export class Fix extends Entity<string> {

@@ -1,7 +1,7 @@
 import { ComplianceReport } from '../aggregates/Evaluation/ComplianceReport.js';
-import { PropertyGraph } from 'c3-parsing';
+import { PropertyGraph } from '@garrick0/c3-parsing';
 import { RuleSet } from '../aggregates/RuleSet/RuleSet.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 
 export class EvaluationEngine {
   constructor(private logger: Logger) {}
