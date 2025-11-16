@@ -1,0 +1,12 @@
+# Include dist/ in npm package (override .gitignore)
+# Only exclude dev files
+node_modules/
+coverage/
+*.log
+.DS_Store
+src/
+tests/
+tsconfig.json
+vitest.config.ts
+.github/
+
